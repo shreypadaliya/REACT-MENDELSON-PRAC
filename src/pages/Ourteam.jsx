@@ -11,7 +11,7 @@ import { Grid } from "@mui/material";
 const Ourteam = () => {
   return (
     <>
-      <Box sx={{ position: "relative" }}>
+      <Box id={"team"} sx={{ position: "relative" }}>
         <img
           style={{ position: "absolute", left: "0px", top: "-150px" }}
           src={asset5}

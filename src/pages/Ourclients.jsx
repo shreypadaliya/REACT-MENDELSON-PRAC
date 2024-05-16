@@ -14,8 +14,8 @@ import client9 from "../assets/images/MelbourneWaterLogo-1024x282.png";
 import { Grid } from "@mui/material";
 const Ourclients = () => {
   return (
-    <div>
-      <Box
+    <div id="client">
+      <Box 
         display={"flex"}
         sx={{
           flexDirection: "column",

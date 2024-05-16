@@ -6,7 +6,7 @@ import google from "../assets/images/Group 20.png";
 const Footer = () => {
   return (
     <>
-      <Box sx={{ width: "85%", marginInline: "auto" }}>
+      <Box id={"contactus"} sx={{ width: "85%", marginInline: "auto" }}>
         <Grid
           container
           sx={{

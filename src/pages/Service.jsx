@@ -8,7 +8,7 @@ import asset5 from "../assets/images/Asset 5 1.png";
 const Service = () => {
   return (
     <>
-      <Box
+      <Box id={"service"}
         sx={{
           display: "flex",
           justifyContent: "center",

@@ -46,11 +46,11 @@ function Navbar() {
                 gap: "25px",
               }}
             >
-              <li>AboutUs</li>
-              <li>Services</li>
-              <li>Team</li>
-              <li>client</li>
-              <li>Contact us</li>
+              <li><a style={{color:"black",textDecoration:"none"}} href="#aboutus">AboutUs</a></li>
+              <li><a style={{color:"black",textDecoration:"none"}} href="#service">service</a></li>
+              <li><a style={{color:"black",textDecoration:"none"}} href="#team">Team</a></li>
+              <li><a style={{color:"black",textDecoration:"none"}} href="#client">client</a></li>
+              <li><a style={{color:"black",textDecoration:"none"}} href="#contactus">ContactUs</a></li>
             </ul>
           </Box>
           <Box sx={{ display: { xs: "none", sm: "none", md: "block" } }}>

@@ -8,7 +8,7 @@ import communication from "../assets/images/coomunication icon 1.png";
 const Aboutus = () => {
   return (
     <>
-      <Grid
+      <Grid id={"aboutus"}
         container
         spacing={2}
         sx={{ marginTop: "80px", marginBottom: "80px" }}
