@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media only screen and (max-width: 767px) {
+    .pabout {
+     height: 350px;
+     width: 300px;
+    }
+  }
+  body{
+    font-family: "Rubik", sans-serif;
+  }
+
+  /* @media only screen and (max-width: 767px) {
+    .backimage {
+     height: 450px;
+     width: 500px;
+    }
+  } */
+
+  /* @media only screen and (max-width: 520px) {
+    .comunicationimg {
+     height: 251px;
+     width: 320px;
+    }
+  } */
+  
+  @media only screen and (min-width: 0px) and (max-width: 1990px) {
+    .comunicationimg {
+        height: auto; /* Adjust the height as needed */
+        width: auto; /* Adjust the width as needed */
+        max-width: 100%; /* Ensures the image doesn't exceed its container */
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* @media only screen and (max-width: 520px) {
+  .facilimg {
+   height: 343px;
+   width: 256px;
+  }
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (min-width: 0px) and (max-width: 1990px) {
+  .facilimg {
+      height: auto; /* Adjust the height as needed */
+      width: auto; /* Adjust the width as needed */
+      max-width: 100%; /* Ensures the image doesn't exceed its container */
+  }
+}
+/* @media only screen and (max-width: 520px) {
+  .conimg {
+   height: 343px;
+   width: 385px;
+  }
+} */
+
+@media only screen and (min-width: 0px) and (max-width: 1990px) {
+  .conimg {
+      height: auto; /* Adjust the height as needed */
+      width: auto; /* Adjust the width as needed */
+      max-width: 100%; /* Ensures the image doesn't exceed its container */
+  }
+}
+/* @media only screen and (max-width: 520px) {
+  .conimg {
+   height: 343px;
+   width: 385px;
+  }
+} */
+
+@media only screen and (min-width: 0px) and (max-width: 1940px) {
+  .conimg {
+      height: auto; /* Adjust the height as needed */
+      width: auto; /* Adjust the width as needed */
+      max-width: 100%; /* Ensures the image doesn't exceed its container */
+  }
+}
+/* @media only screen and (max-width: 520px) {
+  .trainimg {
+   height: 349px;
+   width: 454px;
+  }
+} */
+
+@media only screen and (min-width: 0px) and (max-width: 1990px) {
+  .trainimg {
+      height: auto; /* Adjust the height as needed */
+      width: auto; /* Adjust the width as needed */
+      max-width: 100%; /* Ensures the image doesn't exceed its container */
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1990px) {
+  .main9 {
+      height: auto; /* Adjust the height as needed */
+      width: auto; /* Adjust the width as needed */
+      max-width: 100%; /* Ensures the image doesn't exceed its container */
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1990px) {
+  .engimg  {
+      height: auto; /* Adjust the height as needed */
+      width: auto; /* Adjust the width as needed */
+      max-width: 100%; /* Ensures the image doesn't exceed its container */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (min-width: 0px) and (max-width: 1990px) {
+  .introimg  {
+      height: auto; /* Adjust the height as needed */
+      width: auto; /* Adjust the width as needed */
+      max-width: 100%; /* Ensures the image doesn't exceed its container */
   }
 }
